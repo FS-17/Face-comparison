@@ -18,9 +18,12 @@ git clone https://github.com/FS-17/Face-comparison.git
 pip install -r requirements.txt
 ```
 
-3. Make a folder called faces and add the images of the people you want to compare. 
+3. Make a folder called faces and add the images of the people you want to compare.
+```bash
+mkdir faces
+```
 
-4. Run the main.py script to compare faces in an image with the faces in the database.
+5. Run the main.py script to compare faces in an image with the faces in the database.
 ```bash
 python main.py --image <path_to_image>
 ```
