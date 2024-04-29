@@ -23,7 +23,7 @@ pip install -r requirements.txt
 mkdir faces
 ```
 
-5. Run the main.py script to compare faces in an image with the faces in the database.
+4. Run the main.py script to compare faces in an image with the faces in the database.
 ```bash
 python main.py --image <path_to_image>
 ```
